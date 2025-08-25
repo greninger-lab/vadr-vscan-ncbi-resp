@@ -64,7 +64,7 @@ Download [example.zip](https://github.com/greninger-lab/vadr-vscan-ncbi-resp/raw
     
     unzip example.zip
     cd example
-    nextflow run vadr-vscan-ncbi-resp -r main -latest --input example.csv --outdir ./out -profile docker
+    nextflow run greninger-lab/vadr-vscan-ncbi-resp -r main -latest --input example.csv --outdir ./out -profile docker
 
 #### The default (no "optional" command line options) output directory:
 ```
