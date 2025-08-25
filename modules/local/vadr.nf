@@ -3,7 +3,7 @@ process VADR {
     cpus   params.vadr_cpus
     memory params.vadr_mem
 
-    container "quay.io/jefffurlong/vadr"
+    container "jefffurlong/vadr-ncbi-resp"
 
     // Start with these extensions to save after annotation
     def extensions = [".tbl", ".gbf", ".fsa"]
