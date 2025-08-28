@@ -57,6 +57,8 @@ However, if you also want to create the genbank submission .sqn files (and .gb f
 | `--sbt <file>`        | (optional) path to a [GenBank Submission Template (.sbt) file](https://submit.ncbi.nlm.nih.gov/genbank/template/submission/) | 
 | `--src <file>`        | (optional) path to a [Source Modifiers Table (.src) file](https://www.ncbi.nlm.nih.gov/WebSub/html/help/genbank-source-table.html) |
 | `-profile docker`                         | (required) |
+| `--vadr_mem XXGB`        | (optional) Override the memory requested for the VADR container (default is 36GB) |
+| `--vadr_cpus N`        | (optional) Override the number of CPUs (default is 6) available for VADR |
 | `-c /path/to/your/custom.config`          | (optional) used specify a custom configuration file (see [Nextflow docs](https://www.nextflow.io/docs/latest/config.html) |
 
 ### You can test with the example input FASTA
